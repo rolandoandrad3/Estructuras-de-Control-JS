@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Promedio de Edades</title>
+</head>
+<body class="text-center pt-2">
+    <h1>Promedio de Edades de Estudiantes</h1>
+    <form id="edadesForm">
+        <h2>Turno Mañana (5 estudiantes)</h2>
+        <div id="turnoManana">
+            <div><label for="edadManana1">Edad 1:</label><input type="number" id="edadManana1" required></div>
+            <div><label for="edadManana2">Edad 2:</label><input type="number" id="edadManana2" required></div>
+            <div><label for="edadManana3">Edad 3:</label><input type="number" id="edadManana3" required></div>
+            <div><label for="edadManana4">Edad 4:</label><input type="number" id="edadManana4" required></div>
+            <div><label for="edadManana5">Edad 5:</label><input type="number" id="edadManana5" required></div>
+        </div>
+
+        <h2>Turno Tarde (6 estudiantes)</h2>
+        <div id="turnoTarde">
+            <div><label for="edadTarde1">Edad 1:</label><input type="number" id="edadTarde1" required></div>
+            <div><label for="edadTarde2">Edad 2:</label><input type="number" id="edadTarde2" required></div>
+            <div><label for="edadTarde3">Edad 3:</label><input type="number" id="edadTarde3" required></div>
+            <div><label for="edadTarde4">Edad 4:</label><input type="number" id="edadTarde4" required></div>
+            <div><label for="edadTarde5">Edad 5:</label><input type="number" id="edadTarde5" required></div>
+            <div><label for="edadTarde6">Edad 6:</label><input type="number" id="edadTarde6" required></div>
+        </div>
+
+        <h2>Turno Noche (11 estudiantes)</h2>
+        <div id="turnoNoche">
+            <div><label for="edadNoche1">Edad 1:</label><input type="number" id="edadNoche1" required></div>
+            <div><label for="edadNoche2">Edad 2:</label><input type="number" id="edadNoche2" required></div>
+            <div><label for="edadNoche3">Edad 3:</label><input type="number" id="edadNoche3" required></div>
+            <div><label for="edadNoche4">Edad 4:</label><input type="number" id="edadNoche4" required></div>
+            <div><label for="edadNoche5">Edad 5:</label><input type="number" id="edadNoche5" required></div>
+            <div><label for="edadNoche6">Edad 6:</label><input type="number" id="edadNoche6" required></div>
+            <div><label for="edadNoche7">Edad 7:</label><input type="number" id="edadNoche7" required></div>
+            <div><label for="edadNoche8">Edad 8:</label><input type="number" id="edadNoche8" required></div>
+            <div><label for="edadNoche9">Edad 9:</label><input type="number" id="edadNoche9" required></div>
+            <div><label for="edadNoche10">Edad 10:</label><input type="number" id="edadNoche10" required></div>
+            <div><label for="edadNoche11">Edad 11:</label><input type="number" id="edadNoche11" required></div>
+        </div>
+
+        <button type="button" onclick="calcularPromedios()">Calcular Promedios</button>
+    </form>
+
+    <h2>Resultados</h2>
+    <p id="promedioManana"></p>
+    <p id="promedioTarde"></p>
+    <p id="promedioNoche"></p>
+    <p id="mayorPromedio"></p>
+
+    <script src="promediosDeEdades.js"></script>
+</body>
+</html>
